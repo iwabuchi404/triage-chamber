@@ -1,0 +1,63 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Typescript
+*.tsbuildinfo
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.storybook-static/
+
+# Nuxt
+.nuxt/
+.output/
+
+# Storybook
+storybook-static/
+out/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Prisma
+prisma/dev.db
+prisma/.env
+prisma/migrations/
+
+# Environment variables
+.env
+.env.*.local
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Chrome Extension (build artifacts)
+extension/dist/
+extension/build/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Misc
+*.local
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.swp
+
+.doc
+
